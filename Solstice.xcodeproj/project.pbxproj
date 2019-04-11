@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88958D1D225F88B800617725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D1C225F88B800617725 /* AppDelegate.swift */; };
+		88958D1F225F88B800617725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D1E225F88B800617725 /* ViewController.swift */; };
+		88958D22225F88B800617725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88958D20225F88B800617725 /* Main.storyboard */; };
+		88958D24225F88BB00617725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88958D23225F88BB00617725 /* Assets.xcassets */; };
+		88958D27225F88BB00617725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88958D25225F88BB00617725 /* LaunchScreen.storyboard */; };
+		88958D32225F88BB00617725 /* SolsticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D31225F88BB00617725 /* SolsticeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88958D2E225F88BB00617725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88958D11225F88B800617725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88958D18225F88B800617725;
+			remoteInfo = Solstice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88958D19225F88B800617725 /* Solstice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solstice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88958D1C225F88B800617725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88958D1E225F88B800617725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88958D21225F88B800617725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88958D23225F88BB00617725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88958D26225F88BB00617725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88958D28225F88BB00617725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88958D2D225F88BB00617725 /* SolsticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolsticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88958D31225F88BB00617725 /* SolsticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolsticeTests.swift; sourceTree = "<group>"; };
+		88958D33225F88BB00617725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88958D16225F88B800617725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88958D2A225F88BB00617725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88958D10225F88B800617725 = {
+			isa = PBXGroup;
+			children = (
+				88958D1B225F88B800617725 /* Solstice */,
+				88958D30225F88BB00617725 /* SolsticeTests */,
+				88958D1A225F88B800617725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88958D1A225F88B800617725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88958D19225F88B800617725 /* Solstice.app */,
+				88958D2D225F88BB00617725 /* SolsticeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88958D1B225F88B800617725 /* Solstice */ = {
+			isa = PBXGroup;
+			children = (
+				88958D1C225F88B800617725 /* AppDelegate.swift */,
+				88958D1E225F88B800617725 /* ViewController.swift */,
+				88958D20225F88B800617725 /* Main.storyboard */,
+				88958D23225F88BB00617725 /* Assets.xcassets */,
+				88958D25225F88BB00617725 /* LaunchScreen.storyboard */,
+				88958D28225F88BB00617725 /* Info.plist */,
+			);
+			path = Solstice;
+			sourceTree = "<group>";
+		};
+		88958D30225F88BB00617725 /* SolsticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				88958D31225F88BB00617725 /* SolsticeTests.swift */,
+				88958D33225F88BB00617725 /* Info.plist */,
+			);
+			path = SolsticeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88958D18225F88B800617725 /* Solstice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88958D36225F88BB00617725 /* Build configuration list for PBXNativeTarget "Solstice" */;
+			buildPhases = (
+				88958D15225F88B800617725 /* Sources */,
+				88958D16225F88B800617725 /* Frameworks */,
+				88958D17225F88B800617725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solstice;
+			productName = Solstice;
+			productReference = 88958D19225F88B800617725 /* Solstice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88958D2C225F88BB00617725 /* SolsticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88958D39225F88BB00617725 /* Build configuration list for PBXNativeTarget "SolsticeTests" */;
+			buildPhases = (
+				88958D29225F88BB00617725 /* Sources */,
+				88958D2A225F88BB00617725 /* Frameworks */,
+				88958D2B225F88BB00617725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88958D2F225F88BB00617725 /* PBXTargetDependency */,
+			);
+			name = SolsticeTests;
+			productName = SolsticeTests;
+			productReference = 88958D2D225F88BB00617725 /* SolsticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88958D11225F88B800617725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = iMac;
+				TargetAttributes = {
+					88958D18225F88B800617725 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					88958D2C225F88BB00617725 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 88958D18225F88B800617725;
+					};
+				};
+			};
+			buildConfigurationList = 88958D14225F88B800617725 /* Build configuration list for PBXProject "Solstice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88958D10225F88B800617725;
+			productRefGroup = 88958D1A225F88B800617725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88958D18225F88B800617725 /* Solstice */,
+				88958D2C225F88BB00617725 /* SolsticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88958D17225F88B800617725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88958D27225F88BB00617725 /* LaunchScreen.storyboard in Resources */,
+				88958D24225F88BB00617725 /* Assets.xcassets in Resources */,
+				88958D22225F88B800617725 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88958D2B225F88BB00617725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88958D15225F88B800617725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88958D1F225F88B800617725 /* ViewController.swift in Sources */,
+				88958D1D225F88B800617725 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88958D29225F88BB00617725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88958D32225F88BB00617725 /* SolsticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88958D2F225F88BB00617725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88958D18225F88B800617725 /* Solstice */;
+			targetProxy = 88958D2E225F88BB00617725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88958D20225F88B800617725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88958D21225F88B800617725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88958D25225F88BB00617725 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88958D26225F88BB00617725 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88958D34225F88BB00617725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88958D35225F88BB00617725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88958D37225F88BB00617725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Solstice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddg.Solstice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88958D38225F88BB00617725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Solstice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddg.Solstice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88958D3A225F88BB00617725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolsticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddg.SolsticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solstice.app/Solstice";
+			};
+			name = Debug;
+		};
+		88958D3B225F88BB00617725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolsticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddg.SolsticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solstice.app/Solstice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88958D14225F88B800617725 /* Build configuration list for PBXProject "Solstice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88958D34225F88BB00617725 /* Debug */,
+				88958D35225F88BB00617725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88958D36225F88BB00617725 /* Build configuration list for PBXNativeTarget "Solstice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88958D37225F88BB00617725 /* Debug */,
+				88958D38225F88BB00617725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88958D39225F88BB00617725 /* Build configuration list for PBXNativeTarget "SolsticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88958D3A225F88BB00617725 /* Debug */,
+				88958D3B225F88BB00617725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88958D11225F88B800617725 /* Project object */;
+}
