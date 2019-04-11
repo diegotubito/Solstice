@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		88958D1D225F88B800617725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D1C225F88B800617725 /* AppDelegate.swift */; };
-		88958D1F225F88B800617725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D1E225F88B800617725 /* ViewController.swift */; };
+		88958D1F225F88B800617725 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D1E225F88B800617725 /* ListViewController.swift */; };
 		88958D22225F88B800617725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88958D20225F88B800617725 /* Main.storyboard */; };
 		88958D24225F88BB00617725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88958D23225F88BB00617725 /* Assets.xcassets */; };
 		88958D27225F88BB00617725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88958D25225F88BB00617725 /* LaunchScreen.storyboard */; };
 		88958D32225F88BB00617725 /* SolsticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D31225F88BB00617725 /* SolsticeTests.swift */; };
+		88958D3E225F8FEA00617725 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D3D225F8FEA00617725 /* Services.swift */; };
+		88958D44225FB39000617725 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D43225FB39000617725 /* ListModel.swift */; };
+		88958D47225FBBB600617725 /* ListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D46225FBBB600617725 /* ListViewModelProtocol.swift */; };
+		88958D49225FBC5000617725 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D48225FBC5000617725 /* ListViewModel.swift */; };
+		88958D4B225FC19D00617725 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D4A225FC19D00617725 /* HomeViewController.swift */; };
+		88958D4F225FD01900617725 /* DDBarLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D4E225FD01900617725 /* DDBarLoader.swift */; };
+		88958D54225FD2CB00617725 /* TableViewCellRegisterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88958D52225FD2CB00617725 /* TableViewCellRegisterList.swift */; };
+		88958D55225FD2CB00617725 /* TableViewCellRegisterList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88958D53225FD2CB00617725 /* TableViewCellRegisterList.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +36,7 @@
 /* Begin PBXFileReference section */
 		88958D19225F88B800617725 /* Solstice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solstice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88958D1C225F88B800617725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88958D1E225F88B800617725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88958D1E225F88B800617725 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		88958D21225F88B800617725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88958D23225F88BB00617725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88958D26225F88BB00617725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,14 @@
 		88958D2D225F88BB00617725 /* SolsticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolsticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88958D31225F88BB00617725 /* SolsticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolsticeTests.swift; sourceTree = "<group>"; };
 		88958D33225F88BB00617725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88958D3D225F8FEA00617725 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		88958D43225FB39000617725 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		88958D46225FBBB600617725 /* ListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelProtocol.swift; sourceTree = "<group>"; };
+		88958D48225FBC5000617725 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		88958D4A225FC19D00617725 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		88958D4E225FD01900617725 /* DDBarLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDBarLoader.swift; sourceTree = "<group>"; };
+		88958D52225FD2CB00617725 /* TableViewCellRegisterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellRegisterList.swift; sourceTree = "<group>"; };
+		88958D53225FD2CB00617725 /* TableViewCellRegisterList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellRegisterList.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				88958D1C225F88B800617725 /* AppDelegate.swift */,
-				88958D1E225F88B800617725 /* ViewController.swift */,
+				88958D4A225FC19D00617725 /* HomeViewController.swift */,
+				88958D50225FD21900617725 /* CommonCells */,
+				88958D4C225FCFEB00617725 /* MyCustomViews */,
+				88958D3C225F8F6B00617725 /* Services */,
+				88958D3F225FB34F00617725 /* List */,
 				88958D20225F88B800617725 /* Main.storyboard */,
 				88958D23225F88BB00617725 /* Assets.xcassets */,
 				88958D25225F88BB00617725 /* LaunchScreen.storyboard */,
@@ -94,6 +114,82 @@
 				88958D33225F88BB00617725 /* Info.plist */,
 			);
 			path = SolsticeTests;
+			sourceTree = "<group>";
+		};
+		88958D3C225F8F6B00617725 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				88958D3D225F8FEA00617725 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		88958D3F225FB34F00617725 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				88958D41225FB37000617725 /* Model */,
+				88958D42225FB37500617725 /* ViewModel */,
+				88958D40225FB35E00617725 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		88958D40225FB35E00617725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88958D1E225F88B800617725 /* ListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88958D41225FB37000617725 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88958D43225FB39000617725 /* ListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88958D42225FB37500617725 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88958D46225FBBB600617725 /* ListViewModelProtocol.swift */,
+				88958D48225FBC5000617725 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88958D4C225FCFEB00617725 /* MyCustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				88958D4D225FCFFC00617725 /* BarLoader */,
+			);
+			path = MyCustomViews;
+			sourceTree = "<group>";
+		};
+		88958D4D225FCFFC00617725 /* BarLoader */ = {
+			isa = PBXGroup;
+			children = (
+				88958D4E225FD01900617725 /* DDBarLoader.swift */,
+			);
+			path = BarLoader;
+			sourceTree = "<group>";
+		};
+		88958D50225FD21900617725 /* CommonCells */ = {
+			isa = PBXGroup;
+			children = (
+				88958D51225FD22600617725 /* RegisterCell */,
+			);
+			path = CommonCells;
+			sourceTree = "<group>";
+		};
+		88958D51225FD22600617725 /* RegisterCell */ = {
+			isa = PBXGroup;
+			children = (
+				88958D52225FD2CB00617725 /* TableViewCellRegisterList.swift */,
+				88958D53225FD2CB00617725 /* TableViewCellRegisterList.xib */,
+			);
+			path = RegisterCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +275,7 @@
 			files = (
 				88958D27225F88BB00617725 /* LaunchScreen.storyboard in Resources */,
 				88958D24225F88BB00617725 /* Assets.xcassets in Resources */,
+				88958D55225FD2CB00617725 /* TableViewCellRegisterList.xib in Resources */,
 				88958D22225F88B800617725 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88958D1F225F88B800617725 /* ViewController.swift in Sources */,
+				88958D4F225FD01900617725 /* DDBarLoader.swift in Sources */,
+				88958D47225FBBB600617725 /* ListViewModelProtocol.swift in Sources */,
+				88958D1F225F88B800617725 /* ListViewController.swift in Sources */,
+				88958D49225FBC5000617725 /* ListViewModel.swift in Sources */,
+				88958D3E225F8FEA00617725 /* Services.swift in Sources */,
 				88958D1D225F88B800617725 /* AppDelegate.swift in Sources */,
+				88958D54225FD2CB00617725 /* TableViewCellRegisterList.swift in Sources */,
+				88958D4B225FC19D00617725 /* HomeViewController.swift in Sources */,
+				88958D44225FB39000617725 /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +465,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6M2XY9DLA;
 				INFOPLIST_FILE = Solstice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6M2XY9DLA;
 				INFOPLIST_FILE = Solstice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
