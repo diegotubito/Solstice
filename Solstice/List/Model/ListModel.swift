@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Keys {
     static let name = "name"
@@ -41,6 +42,7 @@ class ListModel {
     var companyName : String?
     var isFavorite : Bool?
     var smallImageURL : String?
+    var smallImage : UIImage?
     var largeImageURL : String?
     var emailAddress : String?
     var birthday : String?

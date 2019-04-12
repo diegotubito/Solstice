@@ -56,11 +56,11 @@ class ServiceManager {
             }
             if data != nil {
                 if let image = UIImage(data: data!) {
-                    
                     DispatchQueue.main.async {
                         //save loaded image to cache
-                        imageCache.setObject(image, forKey: url as AnyObject)
-                        result(image)
+                        let imageToCache = image
+                        imageCache.setObject(imageToCache, forKey: url as AnyObject)
+                        result(imageToCache)
                         return
                         
                     }

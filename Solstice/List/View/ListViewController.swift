@@ -31,7 +31,14 @@ class ListViewController: UIViewController, ListViewProtocol {
     }
     
     func showError(_ value: String) {
-        print("error")
+        let alert = UIAlertController.init(title: title, message: value, preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction.init(title: "OK", style: UIAlertAction.Style.default, handler: { (action) in
+            
+        }))
+        
+        
+        self.present(alert, animated: true, completion: nil)
     }
     
     func showList() {
@@ -63,13 +70,22 @@ extension ListViewController: UITableViewDataSource {
             cell.nameCell.text = self.viewModel?.name(indexPath.row)
             cell.companyNameCell.text = self.viewModel?.companyName(indexPath.row)
            
+            //this line avoid wrong image show
+            cell.iconImageCell.image = #imageLiteral(resourceName: "User Icon Small")
+            //this solve flickering issue
+            cell.tag = indexPath.row
             self.viewModel?.loadImage(indexPath.row, success: { (image) in
-                DispatchQueue.main.async {
+                //the if clause avoid flickering
+                if cell.tag == indexPath.row {
                     cell.iconImageCell.image = image
                 }
                 
             }, fail: { (error) in
-                print("no hay imagen")
+                //the if clause avoid flickering
+                if cell.tag == indexPath.row {
+                    cell.iconImageCell.image = #imageLiteral(resourceName: "User Icon Small")
+                }
+                
             })
             
             if self.viewModel?.isFavorite(indexPath.row) ?? false {
