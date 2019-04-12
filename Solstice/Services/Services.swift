@@ -10,6 +10,8 @@ import UIKit
 import Foundation
 
 class ServiceManager {
+    //variable for storing images in cache, to improve performance and efficiency.
+    static var imageCache = NSCache<AnyObject, AnyObject>()
     
     private static let endopoint = "https://s3.amazonaws.com/technical-challenge/v3/contacts.json"
    
@@ -37,6 +39,14 @@ class ServiceManager {
     
     static func downloadImageFromUrl(url: String, result: @escaping (UIImage?) -> Void, fail: @escaping (Error?) -> Void) {
         
+        //if I have already loaded the image, there's no need to load it again.
+        if let imageFromCache = imageCache.object(forKey: url as AnyObject) as? UIImage {
+            //return the image previously loaded
+            result(imageFromCache)
+            return
+            
+        }
+        
         let dataTask: URLSessionDataTask = URLSession.shared.dataTask(with: NSURL(string: url)! as URL) { (
             data, response, error) -> Void in
             
@@ -46,8 +56,15 @@ class ServiceManager {
             }
             if data != nil {
                 if let image = UIImage(data: data!) {
-                    result(image)
-                    return
+                    
+                    DispatchQueue.main.async {
+                        //save loaded image to cache
+                        imageCache.setObject(image, forKey: url as AnyObject)
+                        result(image)
+                        return
+                        
+                    }
+                    
                 }
             }
             result(nil)
